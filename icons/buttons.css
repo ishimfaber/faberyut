@@ -1,0 +1,63 @@
+.sub{
+    background-color: rgb(180, 6, 6);
+    color: white;
+    border: none;
+    border-radius: 1.9px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.sub:hover{
+    opacity: 0.8;
+
+}
+.sub:active{
+    opacity: 0.5;
+}
+.join{
+    background-color: white;
+    color: rgb(2, 158, 255);
+    border-color: rgb(2, 158, 255);
+    border-style: solid;
+    border-radius: 1.9px;
+    cursor: pointer;
+    transition: background-color 1s,color 1s;
+    margin-left: 15px;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.join:hover{
+    background-color:  rgb(2, 158, 255);
+    color:white;
+    .join:active
+}
+.join:active{
+    opacity: 0.5;
+
+}
+.twe{
+    background-color:rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 65px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15;
+    
+}
+.twe:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
